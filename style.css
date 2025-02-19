@@ -16,6 +16,7 @@
   /* Primary */
 
   --Cyan: hsl(179, 62%, 43%);
+  --Missing: hsl(179, 47%, 52%);
   --Bright-Yellow: hsl(71, 73%, 54%);
 
   /* Neutral */
@@ -30,6 +31,7 @@ html {
 
 body {
   font-family: "Main";
+  background-color: var(--Light-Gray);
 }
 
 .container {
@@ -45,14 +47,17 @@ body {
 
 .header {
   grid-area: header;
+  background-color: white;
 }
 
 .pricing {
   grid-area: pricing;
+  background-color: var(--Cyan);
 }
 
-.beneftis {
+.benefits {
   grid-area: benefits;
+  background-color: var(--Missing);
 }
 
 .visually-hidden:not(:focus):not(:active) {
