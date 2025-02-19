@@ -17,15 +17,15 @@
   ],
   "screenshots": [
     {
-      "src": "https://horoserp.github.io/single-price-grid/assets/images/desktop-screenshot.jpeg",
+      "src": "https://horoserp.github.io/single-price-grid/assets/images/desktop-design.jpg",
       "sizes": "1440x800",
       "type": "image/png",
       "form_factor": "wide",
       "label": "Single Price Grid Desktop"
     },
     {
-      "src": "https://horoserp.github.io/single-price-grid/assets/images/mobile-screenshot.jpeg",
-        "sizes": "375x800",
+      "src": "https://horoserp.github.io/single-price-grid/assets/images/mobile-design.jpg",
+        "sizes": "375x870",
         "type": "image/png",
         "form_factor": "narrow",
         "label": "Single Price Grid Mobile"
