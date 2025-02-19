@@ -32,6 +32,14 @@ body {
   font-family: "Main";
 }
 
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 /* Extra small devices [iPhone SE - 375](phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 }
