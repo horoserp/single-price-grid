@@ -32,6 +32,29 @@ body {
   font-family: "Main";
 }
 
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "pricing benefits";
+  grid-template-columns: 317.5px 317.5px;
+  grid-template-rows: 216px 258px;
+  place-content: center;
+  height: 100vh;
+}
+
+.header {
+  grid-area: header;
+}
+
+.pricing {
+  grid-area: pricing;
+}
+
+.beneftis {
+  grid-area: benefits;
+}
+
 .visually-hidden:not(:focus):not(:active) {
   position: absolute;
   left: -9999px;
