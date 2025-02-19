@@ -56,6 +56,8 @@ body {
 .header {
   grid-area: header;
   background-color: white;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 .header h2 {
@@ -73,6 +75,7 @@ body {
 .pricing {
   grid-area: pricing;
   background-color: var(--Cyan);
+  border-bottom-left-radius: 8px;
 }
 
 .pricing h3 {
@@ -92,6 +95,7 @@ body {
 .benefits {
   grid-area: benefits;
   background-color: var(--Missing);
+  border-bottom-right-radius: 8px;
 }
 
 .benefits ul li {
