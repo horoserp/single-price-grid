@@ -34,6 +34,14 @@ body {
   background-color: var(--Light-Gray);
 }
 
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 .container {
   display: grid;
   grid-template-areas:
@@ -42,7 +50,7 @@ body {
   grid-template-columns: 317.5px 317.5px;
   grid-template-rows: 216px 258px;
   place-content: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .header {
@@ -50,9 +58,35 @@ body {
   background-color: white;
 }
 
+.header h2 {
+  color: var(--Cyan);
+}
+
+.header h3 {
+  color: var(--Bright-Yellow);
+}
+
+.header p {
+  color: var(--Grayish-Blue);
+}
+
 .pricing {
   grid-area: pricing;
   background-color: var(--Cyan);
+}
+
+.pricing h3 {
+  color: var(--Missing);
+}
+
+.cost {
+  color: white;
+}
+
+.sign-up {
+  background-color: var(--Bright-Yellow);
+  color: var(--Light-Gray);
+  border: none;
 }
 
 .benefits {
@@ -60,12 +94,16 @@ body {
   background-color: var(--Missing);
 }
 
-.visually-hidden:not(:focus):not(:active) {
-  position: absolute;
-  left: -9999px;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
+.benefits ul li {
+  list-style-type: none;
+}
+
+article {
+  padding: 40px;
+}
+
+article:not(:nth-of-type(1)) {
+  color: var(--Light-Gray);
 }
 
 /* Extra small devices [iPhone SE - 375](phones, 600px and down) */
