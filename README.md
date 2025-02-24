@@ -77,7 +77,7 @@ Users should be able to:
 
 ### Continued development
 
-I hope to build off of this success and continue exploring new ways to use CSS.
+I would like to increase my confidence with CSS Grids and Responsiveness.
 
 ### Useful resources
 
