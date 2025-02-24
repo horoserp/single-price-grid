@@ -152,7 +152,8 @@ section {
   margin-bottom: 3px;
 }
 
-article {
+/* Can be done using article, but I want to demonstrate use of :where() */
+:where(.header, .pricing, .benefits) {
   padding: 40px;
 }
 
