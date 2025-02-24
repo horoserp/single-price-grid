@@ -122,6 +122,11 @@ section {
   font-size: 1rem;
   padding: 1rem 0;
   box-shadow: 0px 15px 40px -15px hsla(0, 0%, 20%, 0.75);
+
+  &:active {
+    background-color: white;
+    color: var(--Bright-Yellow);
+  }
 }
 
 .benefits {
