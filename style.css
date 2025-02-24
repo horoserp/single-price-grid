@@ -148,6 +148,13 @@ article:not(:nth-of-type(1)) {
   color: var(--Light-Gray);
 }
 
+@media (hover: hover) {
+  .sign-up:hover {
+    background-color: white;
+    color: var(--Bright-Yellow);
+  }
+}
+
 /* Extra small devices [iPhone SE - 375](phones|portrait tablets|large phones, 767px and down) */
 @media only screen and (max-width: 767px) {
   section {
