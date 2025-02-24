@@ -150,8 +150,8 @@ article:not(:nth-of-type(1)) {
 
 @media (hover: hover) {
   .sign-up:hover {
-    background-color: white;
-    color: var(--Bright-Yellow);
+    background-color: var(--Missing);
+    color: white;
   }
 }
 
